@@ -58,6 +58,9 @@
       "\\.css$": "identity-obj-proxy",
       "\\.svg$": "<rootDir>/test/__mocks__/svg-mock.js"
     },
+    "modulePathIgnorePatterns": [
+      "<rootDir>.*(create-component).*$"
+    ],
     "testRegex": "packages/.*(/__tests__/.*|(\\.|/)(test|spec))\\.jsx?$",
     "transformIgnorePatterns": [
       "<rootDir>.*(node_modules)(?!.*@pluralsight.*).*$"
